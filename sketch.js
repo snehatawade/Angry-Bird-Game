@@ -1,3 +1,34 @@
+//examples on the different types of data in java script
+
+//string
+var string = "my name is Sneha";
+console.log(string);
+
+//number
+var num = 100;
+console.log(num);
+
+//boolean
+var bool = true;
+console.log(bool);
+
+//undefined
+var object;
+console.log(object);
+
+//reassigning the same undefined object to null
+object = null;
+console.log(object);
+
+//examples of array
+var arr1 = [1,2,3,4,5];
+console.log(arr1);
+var arr2 = ["sneha",13,true];
+console.log(arr2);
+var arr3 = [[1,2] ,[2,3] ,[3,4]];
+console.log(arr3);
+console.log(arr3[0][1]);
+
 const Engine = Matter.Engine;
 const World= Matter.World;
 const Bodies = Matter.Bodies;
